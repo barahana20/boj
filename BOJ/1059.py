@@ -1,0 +1,6 @@
+input()
+a = list(map(int, input().split()))
+b = int(input())
+a.append(b)
+c = sorted(a)
+print(c[c.index(b)+1] - c[c.index(b)-1] - 2)
