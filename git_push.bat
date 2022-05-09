@@ -1,4 +1,4 @@
-start /b "" "code" C:\Users\barah\Desktop\알고리즘\boj\BOJ
+start /b "code BOJ"
 :loop
     git pull
     git add .
