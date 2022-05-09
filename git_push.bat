@@ -1,3 +1,4 @@
+start "" "code" ./BOJ
 :loop
     git pull
     git add .
