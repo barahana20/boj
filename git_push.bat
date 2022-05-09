@@ -1,4 +1,4 @@
-start /d "code" BOJ
+start "code" BOJ
 :loop
     git pull
     git add .
