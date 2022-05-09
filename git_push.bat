@@ -1,3 +1,4 @@
+cd BOJ
 start code .
 :loop
     git pull
