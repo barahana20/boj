@@ -1,4 +1,4 @@
-start "code" .
+start code .
 :loop
     git pull
     git add .
