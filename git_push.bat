@@ -1,4 +1,4 @@
-start /b code BOJ
+start "" "code" .
 :loop
     git pull
     git add .
