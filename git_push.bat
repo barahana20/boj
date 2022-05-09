@@ -1,5 +1,4 @@
 start /b "" "code" ./BOJ
-pause
 :loop
     git pull
     git add .
