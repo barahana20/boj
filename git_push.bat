@@ -1,3 +1,4 @@
+start /b code BOJ
 :loop
     git pull
     git add .
