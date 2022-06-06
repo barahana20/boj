@@ -1,5 +1,6 @@
-import sys
-
-a = sys.stdin.read()
-
-print(a)
+while True:
+    try:
+        a = input()
+        print(a)
+    except:
+        break
