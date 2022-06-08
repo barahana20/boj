@@ -1,6 +1,6 @@
 row,col = map(int, input().split())
 a = list()
 b = list()
-for _ in range(row):
-    for _ in range(col):
-        
+for i in range(row):
+    for j in range(col):
+        a[i][j] = 
