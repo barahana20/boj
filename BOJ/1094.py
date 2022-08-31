@@ -1,0 +1,1 @@
+print(str(format(int(input()), 'b')).count('1'))
