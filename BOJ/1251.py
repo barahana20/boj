@@ -1,5 +1,10 @@
 a = input()
+arr = []
+for i in range(1, len(a)-1):
+    for j in range(i+1, len(a)):
+        m,n,k = a[0:i], a[i:j], a[j:]
+        arr.append(m[::-1]+n[::-1]+k[::-1])
 
-for i in range(1, len(a)-2):
-    for j in range(i+1, len(a)-1):
-        print(a[0:i], a[i:j], a[j+1:])
+arr.sort()
+print(arr[0])
+    
