@@ -1,1 +1,6 @@
-print(bin(0b0010 | (1 << 2)))  #  0b1010
+a = int(input())
+
+b = [input() for _ in range(a)]
+b.sort()
+
+print(b)
