@@ -1,5 +1,3 @@
-a = int(input())
-
-b = list(set([input() for _ in range(a)]))
-
-print(sorted(b.sort(), key=lambda x: len(x)))
+b = list(set([input() for _ in range(int(input()))]))
+b.sort()
+print('\n'.join(sorted(b, key=lambda x: len(x))))
